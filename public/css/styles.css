@@ -49,6 +49,7 @@ input {
     width: 80%;
     margin: 0 auto;
     margin-left: 9%;
+    font-size: 20px;
 }
 
 button {
@@ -61,4 +62,5 @@ button {
     width: 80%;
     height: 50px;
     margin-left: 10%;
+    font-size: 30px;
 }
