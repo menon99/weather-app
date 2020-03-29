@@ -26,4 +26,4 @@ $ npm start
 - string-format
 - hbs
 
-![screenshot](web-servers/screenshots/app.png)
+![screenshot](screenshots/app.png)
