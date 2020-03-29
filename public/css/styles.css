@@ -1,10 +1,10 @@
 body {
-    color: #333333;
+    color: whitesmoke;
+    background-color: black;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh
@@ -12,6 +12,7 @@ body {
 
 .main-content {
     flex-grow: 1;
+    align-items: center;
 }
 
 footer {
@@ -38,18 +39,26 @@ header a {
 }
 
 .portrait {
-    width: 250px;
+    width: 650px;
+    height: 400px;
 }
 
 input {
-    border: 1px solid #cccccc;
+    border: 2px solid cyan;
     padding: 8px;
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 9%;
 }
 
 button {
     cursor: pointer;
-    border: 1px solid #888888;
-    background: #888888;
+    border: 1px solid black;
+    background: green;
     color: white;
     padding: 8px;
+    border-radius: 20px;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
 }
