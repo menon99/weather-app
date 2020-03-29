@@ -12,7 +12,7 @@ let getWeather = () => {
         p4.innerText = "Loading ....";
 
         let address = document.getElementById('address').value;
-        let url = 'http://localhost:8000/weather?address=' + encodeURIComponent(address);
+        let url = '/weather?address=' + encodeURIComponent(address);
         fetch(url).then(response => {
             response.json().then(data => {
                 if ('error' in data) {

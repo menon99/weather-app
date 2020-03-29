@@ -8,6 +8,8 @@ const publicPath = path.join(__dirname, '../public');
 const partialPath = path.join(__dirname, '../partials');
 const app = express();
 
+const port = process.env.PORT || 8000;
+
 //handlebars
 app.set('view engine', 'hbs');
 hbs.registerPartials(partialPath);
@@ -75,6 +77,6 @@ app.get('*', (req, res) => {
     });
 });
 
-app.listen(8000, () => {
+app.listen(port, () => {
     console.log('Server running');
 });
